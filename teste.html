@@ -1,0 +1,49 @@
+<html>
+	<head>
+	<link href="estilos.css" rel="stylesheet"/>
+			<script>
+		
+	</script>
+	<script type="text/javascript" src="script.js">	
+	</script>
+
+	</head>
+	
+	<body>
+		<center><h1 id="c" >GAME: NÚMERO MÁGICO</h1></center>
+
+		<center><p> <a> Que a sorte esteja com você!!</a></p></center>
+		
+		<center>
+		<form action="">
+		  <label for="fname">First name:</label>
+		  <input type="text" id="fname" name="fname"><br><br>
+		</form>
+		</center>
+		
+		<center>
+		<label for="palpite">Palpite:</label>
+		<input type="text" id="palpite" name="palpite" onfocus="tocarMusica()"/>
+		<button onclick="jogar()">Jogar</button>
+		<button onclick="reiniciar()" >Reiniciar</button>
+		</center>
+		
+		<hr />
+		
+		<audio id="foobar" controls>
+		  <source src="fundo.mp3.mp3" type="audio/mpeg">
+				Your browser does not support the audio element.
+		</audio>
+		
+		<center>
+			<div id="resultado"></div>
+		</center>
+		<hr />
+		<center>
+			<div id="jogo"></div>
+		</center>
+		
+	</body>
+	
+	
+</html>

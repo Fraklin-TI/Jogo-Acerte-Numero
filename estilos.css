@@ -1,0 +1,79 @@
+body 
+{
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-color: #00000077;
+	background-image:url("./arquivos/fundo.jpg");
+	width: 800px;
+	margin-top: 25px;
+	height: 300px;
+    color: #fffbfb;
+    padding: 10px 0px 10px 0px;
+    text-align: center;
+    border-radius: 15px 15px 15px 15px;
+	box-shadow: inset 0 0 1em rgb(1, 58, 75), 0 0 1em rgb(0, 140, 255);
+}
+		
+h1   
+{
+	color: rgb(255, 255, 255);
+	background-color: #00000077;
+}
+	
+p   
+{
+	color: rgb(255, 250, 250);
+	font-size: 24px;
+	background-color: #00000077;
+}
+	
+form
+{
+	color: rgb(241, 239, 239);
+	background-color: #00000077;
+}
+	
+input 
+{
+	background-color: rgb(255, 255, 255);
+}
+
+label
+{
+	color: rgb(255, 255, 255);
+	background-color: #00000077;
+}
+	
+#foobar
+{
+	display: none;
+}
+
+#jogo
+{
+	color: rgb(253, 253, 253);
+	background-color: #00000077;
+	font-size: 24px;
+	border: 0 solid ;
+	background-color: rgba(0, 0, 0, 0.562);
+	
+}
+
+#acertou
+{
+	color: red;
+	font-size: 24px;
+	border: 0 solid ;
+	background-color: black;
+}
+
+#resultado
+{
+	color: rgba(0, 0, 0, 0.747);
+	font-size: 24px;
+	border: 0 solid ;
+	background-color: tomato;
+	
+}
+		
+		
